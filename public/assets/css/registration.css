@@ -1,0 +1,19 @@
+.registration-form {
+  background: #f4f7fb;
+}
+.registration-form form {
+  border: 1px solid #FF8201;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+}
+.registration-form form input, .registration-form form textarea, .registration-form form select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2666666667);
+}
+.registration-form form label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #000;
+}/*# sourceMappingURL=registration.css.map */

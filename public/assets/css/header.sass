@@ -1,0 +1,248 @@
+$blue: #0071A1
+$green: #177D00
+$orange: #FF8201
+$yellow: #ffc107
+
+h1,h2,h3,h4,h5,h6
+    font-family: "Roboto", sans-serif
+body, p, a, span, div, ul, li, ol
+    font-family: "Open Sans", sans-serif
+a
+    font-weight: 600
+    font-family: "Roboto", sans-serif
+
+.success-mm, .fail-mm, #CtSpinner
+    display: none
+
+.our-policy
+    background: #eef1f5
+    h2
+        font-size: 26px
+        margin-top: 30px
+    h3
+        font-size: 22px
+
+.btn-web-button
+    font-family: "Open Sans", sans-serif
+    font-weight: bold
+    background: $green
+    opacity: 1
+    color: #fff !important
+    padding: 8px 20px
+    font-size: 16px
+    border-radius: 10px
+    display: inline-block
+    margin-top: 6px
+    text-decoration: none
+    border: 0px
+    letter-spacing: 1.1px
+    &:hover
+        opacity: 0.9
+        background: #FF8201
+        color: #fff
+        padding: 8px 20px
+        border-radius: 10px
+
+header
+    position: sticky
+    top: 0px
+    background: #fff
+    z-index: 100
+    width: 100%
+
+.btn-orange
+    background: $orange
+
+.yellow-btn
+    background: $yellow
+    color: #000 !important
+    &:hover
+        background: $yellow
+
+.heighlight-section
+    background: $orange
+    padding: 6px 0px
+    p
+        color: #fff
+        text-align: center
+        font-size: 22px
+        font-weight: bold
+        text-transform: uppercase
+    .title
+        font-size: 32px
+        color: $yellow
+
+.footer-section
+    background: #0071A1
+    background: linear-gradient(23deg, #0071A1, #7bbad5)
+    h2, p
+        color: #fff
+        text-align: left
+    p
+        margin: 0px !important
+        font-weight: 500
+        font-size: 15px
+        font-style: italic
+    .line
+        border: 1px solid #fff
+        height: 75px
+        margin: 0px 20px
+
+.payment-section
+    td
+        padding: 15px
+    .card-modern
+        border: none
+        border-radius: 1.5rem
+        box-shadow: 0 10px 30px rgba(0,0,0,.08)
+        h2
+            font-size: 32px
+            margin-bottom: 15px !important
+            margin-top: 10px !important
+            text-align: center
+        h3
+            text-align: center
+            font-size: 22px
+            margin-bottom: 0px !important
+
+.other-charges-col
+    li
+        margin-left: 0px
+        padding-left: 0px
+
+.nav-item-mb
+    display: none !important
+
+.socialinfo
+    a
+        position: fixed
+        bottom: 20px
+        z-index: 100
+    #phone
+        left: 20px
+    #mailinfo
+        right: 20px
+    img
+        background: #fff
+        border-radius: 100%
+
+.flex-boxing
+    display: flex !important
+    justify-content: center !important
+    align-items: center !important
+    gap: 12px
+    p
+        margin-bottom: 0px
+        text-align: center
+    .social-top-info
+        a
+            text-decoration: none
+        .phone a
+            color: #000 !important
+        .email a
+            color: $orange
+
+@media only screen and (max-width:1420px)
+    .groups-btns .btn-web-button
+        padding: 8px 10px
+
+@media only screen and (max-width:768px)
+    #registerForm
+        button
+            width: 100% !important
+    .main
+        margin-top: 120px !important
+    .socialinfo img
+        width: 35px
+    .socialinfo #phone
+        left: 10px
+    .socialinfo a
+        position: fixed
+        bottom: 10px
+    .socialinfo #mailinfo
+        right: 10px
+
+    .navbar-collapse .btn-web-button
+        padding: 8px 10px 
+        font-size: 13px 
+
+    .flex-boxing
+        display: none !important
+    .dss-mb-none
+        display: none !important
+
+    .nav-item-mb
+        display: block !important
+        margin-bottom: 10px
+    .ds-none
+        display: none !important
+    .heighlight-section p
+        font-size: 14px
+    .heighlight-section .title
+        font-size: 20px
+    .register-layer
+        padding: 25px !important
+        margin-top: 25px !important
+        width: 94% !important
+        margin-left: auto !important
+        margin-right: auto !important
+    .main-title
+        line-height: 1.2 !important
+        font-size: 26px !important
+        margin-top: 50px !important
+    .hero-section-2
+        margin-top: 152px
+        .btn-web-button
+            margin-bottom: 30px !important
+    .navbar-collapse
+        position: absolute
+        top: 0px
+        left: 0px
+        width: 100%
+        background: #fff
+        padding: 10px 0px
+        padding-top: 45px
+    header
+        position: fixed
+
+    .nav-link.active
+        border-bottom: 0px solid #0071A1 !important
+    .close-icon
+        position: absolute
+        right: 20px
+        top: 20px
+    .footer-section
+        .container
+            flex-direction: column !important
+    .footer-section .line
+        border: 1px solid #fff
+        height: 4px
+        margin: 0px 20px
+        width: 100%
+        border-bottom: 0px
+        border-left: 0px
+        border-radius: 0px
+        border-right: 0px
+        margin-bottom: 12px
+
+.marquee
+    overflow: hidden
+    white-space: nowrap
+    background: $yellow
+    padding: 10px 0
+    position: relative
+
+.marquee span
+    display: inline-block
+    padding-left: 100%
+    animation: marquee 40s linear infinite
+    font-weight: 600
+
+.marquee:hover span
+    animation-play-state: paused
+
+@keyframes marquee
+    0%
+        transform: translateX(0)
+    100%
+        transform: translateX(-100%)

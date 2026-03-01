@@ -1,0 +1,254 @@
+$blue: #0071A1
+$red: #c15959
+$darkblue: #084C9D
+$green: #177D00
+$orange: #FF8201
+$yellow: #ffc107
+
+.hero-section
+    .left-clm
+        background: $darkblue
+        p, a
+            text-align: center
+        p
+            color: #fff
+        .title
+            font-size: 45px
+            font-weight: bold
+        a
+            margin-top: 15px !important
+
+    ul li
+            font-style: italic
+            margin-bottom: 10px
+            color: #fff
+
+    ul
+        margin: 0px
+        padding: 0px
+        text-decoration: none
+        list-style: none
+        margin-top: 12px
+    svg
+        width: 15px
+        fill: $orange
+        position: relative
+        top: -2px
+        margin-right: 5px
+
+.highlight-section
+    background: $yellow
+    padding: 25px 0px
+    p
+        text-align: center
+        font-weight: bold
+        font-size: 18px
+        margin: 0px
+
+.infosection
+    p
+        text-align: center
+        margin: 0px
+        color: #fff
+    .title
+        font-size: 20px
+        margin-bottom: 5px
+    .first
+        background: $blue
+    .second
+        background: $orange
+    .third
+        background: $green
+
+.location-advantages-section
+    background: $darkblue
+    p, h2, h3, div
+        color: #fff
+    .highlight-card
+        margin-bottom: 15px
+    .blue-highlight-box
+        padding: 50px
+
+.download-section
+    h2, p
+        text-align: center
+    thead, thead tr, thead tr th
+        background: $yellow
+    td, th, tr
+        padding: 15px
+    table a
+        color: $red
+
+.plan-section
+    h2,p
+        text-align: center
+    img
+        padding: 10px
+        border: 2px solid #af7668
+        border-radius: 10px
+
+.actualImage
+    h2
+        text-align: center
+
+.amenitiess-section
+    h2
+        text-align: center
+    .boxarea
+        border: 1px solid #000
+        margin-bottom: 10px
+        transform: translate(0px, 0px)
+        transition: all 200ms ease-in-out
+        p
+            text-align: center
+            font-size: 18px
+            font-weight: 500
+            padding: 10px
+            margin-bottom: 0px
+            text-transform: capitalize
+        img
+            height: 250px
+            object-fit: cover
+            object-position: center
+        &:hover
+            transform: translate(0px, -9px)
+            transition: all 200ms ease-in-out
+
+.contact-section
+    padding: 70px 0
+    background: #f4f7fb
+    form
+        border: 1px solid #0004
+        padding: 30px
+        border-radius: 10px
+        background: #fff
+        input, textarea
+            margin-bottom: 15px
+            padding: 12px
+            border: 1px solid #0006
+        label
+            font-weight: 500
+            margin-bottom: 5px
+            color: #000
+
+.contact-card
+    border-radius: 25px
+    height: 100%
+    padding-top: 0px
+
+.contact-title
+    font-size: 38px
+    font-weight: 700
+
+.contact-item
+    display: flex
+    gap: 15px
+    margin-bottom: 20px
+    border: 1px solid #0004
+    padding: 20px 15px
+    border-radius: 10px
+    background: #fff
+
+.contact-icon
+    width: 60px
+    height: 60px
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 26px
+
+.contact-item p,.contact-item strong
+    font-size: 18px
+    margin: 0px
+
+.social-content
+    width: 88% !important
+
+.contact-icon-2
+    width: 60px
+    height: 60px
+
+#home,#highlights,#amenities,#pricing,#location,#floorplans
+    scroll-margin-top: 162px
+
+.lightanimation
+    animation: buttonanimation 900ms ease-in-out infinite
+    &:hover
+        animation: buttonimation 900ms ease-in-out infinite
+        opacity: 1
+        animation-play-state: paused
+
+.about-us-section
+    .btn-web-button
+        background: $orange !important
+        animation: buttonanimation 900ms ease-in-out infinite
+        &:hover
+            animation: buttonimation 900ms ease-in-out infinite
+            opacity: 1
+            animation-play-state: paused
+
+.register-button
+    animation: buttonanimation 900ms ease-in-out infinite
+    .btn-web-button
+        background: $orange !important
+    &:hover
+        animation: buttonimation 900ms ease-in-out infinite
+        opacity: 1
+        animation-play-state: paused
+
+.highlight-section
+    p
+        text-transform: uppercase
+
+@keyframes buttonanimation
+    0%
+        opacity: 1
+    100%
+        opacity: 0
+
+@media only screen and (max-width:768px) 
+    
+    .table-section
+        table
+            td:nth-child(2)
+                width: 110px !important
+
+    .table-payment
+        overflow: hidden
+        overflow-x: scroll
+        table
+            width: max-content
+            border-collapse: collapse
+            th, td
+                white-space: nowrap
+                padding: 10px
+    .actualImage
+        img
+            margin-bottom: 15px 
+    .plan-section
+        .title 
+            margin-top: 30px 
+    .contact-section form
+        padding: 20px
+    .location-advantages-section .blue-highlight-box
+        padding: 5px
+        padding-bottom: 30px
+
+    .hero-section
+        .content
+            padding: 30px 0px
+    .hero-section .left-clm .title
+        margin-bottom: 15px!important
+        font-size: 28px !important
+    .payment-section .card-modern h2
+        font-size: 28px !important
+    .payment-section .card-modern h3
+        font-size: 20px !important
+    .about-us-section
+        .container
+            img
+                width: 75%
+                margin-left: auto
+                margin-right: auto
+                display: block
