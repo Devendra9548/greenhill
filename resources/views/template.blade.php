@@ -54,6 +54,7 @@
             </li>
           </ul>
           <a href="{{route('registration')}}" class="btn-web-button yellow-btn lightanimation" aria-label="Call Maxvel Group">Registration Open</a>
+          <p class="mt-2">Registration Amount Rs 5100/-</p>
         </div>
       </div>
       <div class="col-12 col-md-8 p-0 order-1 order-md-2">
@@ -79,6 +80,7 @@
         <p>Welcome to <strong>Green Hills</strong>, a thoughtfully planned, government-approved residential plotted township located in the serene surroundings of <strong>Triveni Dham, Shahpura, Rajasthan</strong>. </p>
         <p> This expansive community is designed for homebuyers and investors seeking the perfect blend of natural tranquility, modern infrastructure, and long-term value. With ample space, strategic connectivity, and essential amenities, Green Hills offers you the ideal platform to build your dream home or make a smart land investment.</p>
         <a href="{{route('registration')}}" class="btn-web-button">Register Now</a>
+        <p class="mt-2 fw-bold">Registration Amount Rs 5100/-</p>
       </div>
       <div class="col-12 col-md-4 order-1 order-md-2">
         <img src="/assets/imgs/certificate.png" alt="certified image" width="100%">
@@ -195,9 +197,10 @@
   </div>
 </section>
 
-<div class="container register-button pb-md-5">
+<div class="container register-button">
    <a href="{{route('registration')}}" class="btn-web-button w-100 text-center">Register Now</a>
 </div>
+<p class="text-center mt-2 pb-md-5 fw-bold">Registration Amount Rs 5100/-</p>
 
 <section class="location-advantages-section py-0 py-md-5"  id="location">
   <div class="container my-5">
@@ -383,9 +386,10 @@
     </div>
 </section>
 
-<div class="container register-button pb-md-5">
-   <a href="{{route('registration')}}" class="btn-web-button w-100 text-center">Register Now</a>
+<div class="container register-button">
+   <a href="{{route('registration')}}" class="btn-web-button w-100 text-center">Register Now</a> 
 </div>
+<p class="text-center mt-2 pb-md-5 fw-bold">Registration Amount Rs 5100/-</p>
 
 <section class="contactus-section py-0 py-md-5">
   <div class="contact-section py-5">
